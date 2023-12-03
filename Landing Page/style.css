@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&family=Montserrat:wght@300&family=Poppins:wght@300;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+/* Header */
+.header {
+  width: 100%;
+  height: 70px;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgba(227, 232, 230, 0.81);
+}
+.logo {
+  width: 15%;
+  margin-left: 4%;
+  font-size: 20px;
+  color: rgb(46, 72, 51);
+}
+.fa-couch {
+  margin-right: 10px;
+}
+.menu {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.menu a {
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: rgb(54, 76, 58);
+  padding: 8px;
+}
+a:hover {
+  color: rgb(117, 145, 123);
+  border-radius: 4px;
+}
+.inp {
+  width: 20%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 20px;
+}
+input {
+  padding: 8px 30px;
+  width: 100%;
+  font-size: 1rem;
+  border: none;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  outline: none;
+  position: relative;
+}
+input:hover {
+  background-color: rgb(225, 234, 227);
+  border: 2px solid rgb(166, 181, 174);
+}
+.icon {
+  width: 17%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  background-color: rgb(16, 49, 23);
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  color: #f7f4f4;
+}
+/* Main */
+.main {
+  width: 100%;
+  height: 680px;
+  background-image: url(img.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+.msg1 {
+  margin-top: 6%;
+  margin-left: 13%;
+  font-size: 80px;
+  width: 55%;
+  word-spacing: 5px;
+  font-weight: 350;
+  color: rgb(247, 245, 245);
+  /* rgb(215, 227, 217); */
+  /* rgb(151, 166, 155) */
+}
+.msg2 {
+  margin-left: 18.5%;
+  font-size: 20px;
+  font-weight: 400;
+  word-spacing: 2px;
+  color: white;
+}
+button {
+  margin-top: 10px;
+  font-size: large;
+  margin-left: 34%;
+  width: 140px;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  color: white;
+  background-color: rgb(16, 49, 23);
+  /* rgb(59, 80, 70); */
+  /* rgb(47, 66, 57); */
+  /* rgb(35, 47, 41); */
+}
+button:hover {
+  background-color: white;
+  color: black;
+  transition: 0.8s;
+}
